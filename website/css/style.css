@@ -1,0 +1,107 @@
+html,
+body {
+    height: 100%;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: lato !important;
+}
+
+body {
+    background-image: url(../img/bg-pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+@font-face {
+    font-family: "lato";
+    font-weight: 100;
+    src: url('../lato-font/Lato-Hairline.ttf');
+}
+
+@font-face {
+    font-family: 'lato';
+    font-weight: 200;
+    src: url('../lato-font/Lato-Light.ttf');
+}
+
+@font-face {
+    font-family: 'lato';
+    font-weight: 300;
+    src: url('../lato-font/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'lato';
+    font-weight: 400;
+    src: url('../lato-font/Lato-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'lato';
+    font-weight: 600;
+    src: url('../lato-font/Lato-Black.ttf');
+}
+
+::selection {
+    background: #03206b;
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #03206b;
+    color: #fff;
+}
+
+::-webkit-selection {
+    background: #03206b;
+    color: #fff;
+}
+
+.logo {
+    width: 200px;
+}
+
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -150px;
+    margin-left: -177px;
+}
+
+.coming-soon {
+    font-weight: 200;
+    font-size: 50px;
+    letter-spacing: 6px;
+    margin-top: 50px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.fa {
+    font-size: 24px;
+    color: #03206b;
+}
+
+.footer ul li a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media(max-width:768px) {
+    .content {
+        margin-left: -123px;
+    }
+    .coming-soon {
+        font-size: 32px;
+    }
+}
