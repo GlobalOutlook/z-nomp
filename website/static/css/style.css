@@ -78,6 +78,14 @@ body {
     color: rgba(0, 0, 0, 0.5);
 }
 
+.coming-soon-small {
+    font-weight: 200;
+    font-size: 25px;
+    letter-spacing: 6px;
+    margin-top: 50px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
 .footer {
     padding-top: 40px;
     padding-bottom: 40px;
