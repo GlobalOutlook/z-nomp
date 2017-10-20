@@ -54,6 +54,8 @@ module.exports = function(logger){
     var keyScriptTemplate = '';
     var keyScriptProcessed = '';
 
+    var comingSoon = '';
+
     var processTemplates = function(){
 
         for (var pageName in pageTemplates){
@@ -299,6 +301,10 @@ module.exports = function(logger){
 
     app.get('/key.html', function(req, res, next){
         res.end(keyScriptProcessed);
+    });
+
+    app.get('/comingsoon.html', function(req, res, next){
+        res.end(comingSoon);
     });
 
     //app.get('/stats/shares/:coin', usershares);
